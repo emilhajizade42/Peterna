@@ -1,1 +1,307 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a, ul, ol {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("/aseets/imgs/bg.png");
+}
+
+#get_page_done {
+  min-height: 60vh;
+  background-color: #0d718a;
+}
+
+.get_page_done_header {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 72px;
+}
+
+.get_page_done_title {
+  font-size: 48px;
+}
+
+.get_page_done_content {
+  font-size: 24px;
+}
+
+.get_page_done_link {
+  font-size: 20px;
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+#our_sevices {
+  min-height: 90vh;
+}
+
+#our_sevices i {
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+
+.our_sevices_header {
+  font-size: 48px;
+  color: #0d718a;
+}
+
+.our_sevices_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 16px 0;
+}
+
+.our_sevices_card_container {
+  background-color: #0d718a;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.fa-desktop {
+  -webkit-animation-name: desktop;
+          animation-name: desktop;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes desktop {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  15% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  30% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes desktop {
+  0% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  15% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  30% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  75% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.fa-flask {
+  -webkit-animation-name: flask;
+          animation-name: flask;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes flask {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  15% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  30% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  50% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  75% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes flask {
+  0% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  15% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  30% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  50% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  75% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+.fa-credit-card {
+  -webkit-animation-name: credit;
+          animation-name: credit;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes credit {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate -20deg;
+            transform: rotate -20deg;
+  }
+  30% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  50% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes credit {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  15% {
+    -webkit-transform: rotate -20deg;
+            transform: rotate -20deg;
+  }
+  30% {
+    -webkit-transform: rotate(20deg);
+            transform: rotate(20deg);
+  }
+  50% {
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+  }
+  75% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+#featured {
+  background-color: #0d718a;
+  padding: 40px 0;
+  color: white;
+}
+
+.our_plans_header {
+  font-size: 48px;
+  color: #0d718a;
+}
+
+.our_plans_card_container {
+  background-color: #b9b8b8;
+}
+
+.our_plans_card_header {
+  color: black;
+}
+
+.our_plans_card_content {
+  color: gray;
+}
+
+.our_plans_card_content span {
+  font-weight: bold;
+}
+
+.contact_header {
+  font-size: 48px;
+  color: #0d718a;
+}
+/*# sourceMappingURL=main.css.map */
