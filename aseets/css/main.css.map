@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/base/_reset.scss",
+        "../sass/base/_typography.scss",
+        "../sass/base/_variables.scss",
+        "../sass/layout/_navbar.scss",
+        "../sass/layout/_footer.scss",
+        "../sass/page/_home.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
